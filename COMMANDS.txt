@@ -1,0 +1,138 @@
+====================================================================
+LAPTOP MARKET INTELLIGENCE DASHBOARD - COMMAND REFERENCE
+====================================================================
+
+✅ ALL ERRORS FIXED - SYSTEM READY TO USE
+
+====================================================================
+QUICK START (EASIEST)
+====================================================================
+
+Double-click this file:
+    run_dashboard.bat
+
+====================================================================
+MANUAL START
+====================================================================
+
+Option 1 - Using Streamlit directly:
+    streamlit run app.py
+
+Option 2 - Using Python:
+    C:\Users\amird\AppData\Local\Programs\Python\Python313\python.exe -m streamlit run app.py
+
+Option 3 - Short command:
+    python -m streamlit run app.py
+
+====================================================================
+TESTING
+====================================================================
+
+Run full test suite:
+    python test_app.py
+
+Run demo:
+    python demo_test.py
+
+====================================================================
+INSTALLATION (Already Complete)
+====================================================================
+
+Install dependencies:
+    pip install -r requirements.txt
+
+Download NLTK data:
+    python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords')"
+
+====================================================================
+ACCESSING THE DASHBOARD
+====================================================================
+
+After running, open your browser to:
+    http://localhost:8501
+
+If port 8501 is busy, use:
+    streamlit run app.py --server.port 8502
+
+====================================================================
+TROUBLESHOOTING
+====================================================================
+
+If you see "module not found" errors:
+    pip install streamlit pandas beautifulsoup4 textblob scikit-learn plotly requests
+
+If NLTK errors appear:
+    python -c "import nltk; nltk.download('all')"
+
+If port is already in use:
+    streamlit run app.py --server.port 8502
+
+====================================================================
+PROJECT FILES
+====================================================================
+
+Main Application:
+    app.py                      - Streamlit dashboard
+
+Scrapers:
+    scrapers/amazon_scraper.py  - Amazon product scraper
+    scrapers/flipkart_scraper.py - Flipkart product scraper
+    scrapers/reddit_scraper.py  - Reddit discussion scraper
+    scrapers/youtube_scraper.py - YouTube video scraper
+
+Analysis:
+    analysis/sentiment_analyzer.py - TextBlob sentiment analysis
+    analysis/keyword_extractor.py  - TF-IDF keyword extraction
+    analysis/competitor_strategy.py - AI strategy generator
+
+Documentation:
+    README.md           - Full documentation
+    QUICKSTART.md       - Quick start guide
+    PROJECT_SUMMARY.md  - Complete project overview
+    COMMANDS.txt        - This file
+
+====================================================================
+TECH STACK (All Installed & Working)
+====================================================================
+
+✅ Python 3.13
+✅ Streamlit 1.55.0 (Dashboard)
+✅ Pandas 2.3.3 (Data processing)
+✅ BeautifulSoup 4.14.3 (Web scraping)
+✅ TextBlob 0.19.0 (Sentiment analysis)
+✅ Scikit-learn 1.8.0 (Keyword extraction)
+✅ Plotly 6.6.0 (Visualizations)
+✅ Requests 2.32.5 (HTTP)
+
+====================================================================
+WHAT WAS FIXED
+====================================================================
+
+❌ Original Error: Scrapers used classes instead of functions
+✅ Fixed: Converted all scrapers to function-based interface
+
+❌ Original Error: Missing NLTK data
+✅ Fixed: Downloaded punkt, stopwords, brown corpora
+
+❌ Original Error: Python version mismatch
+✅ Fixed: Using Python 3.13 consistently
+
+❌ Original Error: Empty youtube_scraper.py
+✅ Fixed: Created complete implementation
+
+✅ All syntax errors resolved
+✅ All imports working
+✅ All tests passing
+✅ Demo running successfully
+
+====================================================================
+CURRENT STATUS
+====================================================================
+
+🟢 System Status: FULLY OPERATIONAL
+🟢 All Tests: PASSING
+🟢 All Dependencies: INSTALLED
+🟢 All Modules: WORKING
+🟢 Ready for: PRODUCTION USE
+
+====================================================================
