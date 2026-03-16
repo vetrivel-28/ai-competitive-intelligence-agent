@@ -4,7 +4,7 @@ AI-powered dashboard for analyzing laptop market data from multiple sources.
 
 ## Features
 
-- Multi-source data scraping (Amazon, Flipkart, Reddit, YouTube)
+- Multi-source data scraping (Amazon,Reddit, YouTube)
 - Sentiment analysis of reviews and discussions
 - Keyword extraction for competitor insights
 - AI-generated strategy recommendations
