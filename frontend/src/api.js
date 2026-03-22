@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE = "http://localhost:8000/api";
+const BASE = (import.meta.env.VITE_API_URL || "http://localhost:8000") + "/api";
 
 export const getBrands = () => axios.get(`${BASE}/brands`);
 export const getModels = (brand) => axios.get(`${BASE}/models`, { params: brand ? { brand } : {} });

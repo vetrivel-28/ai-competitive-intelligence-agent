@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: laptop-intel-api
+    runtime: python
+    buildCommand: pip install -r requirements_api.txt
+    startCommand: uvicorn api.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+    disk:
+      name: data
+      mountPath: /opt/render/project/src
+      sizeGB: 1
